@@ -1,0 +1,9 @@
+.navbar {
+   background-color: var(--dark-abeto);
+   text-align: center
+}
+
+.box {
+   display: flex;
+   justify-content: center;
+}

@@ -1,0 +1,72 @@
+.container {
+   background-color: var(--abeto);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0.2rem 1rem;
+}
+
+/* NOTE: left */
+.leftBox {
+   display: flex;
+   align-items: center;
+   column-gap: 1rem;
+}
+
+.leftBox img {
+   width: 60px;
+   border-radius: 50%;
+   border: 2px solid var(--gold)
+}
+
+.leftBox p {
+   color: var(--white);
+   font-family: Asap, sans-serif;
+   text-shadow:
+      -0.5px -0.5px 0 var(--dark),
+      0.5px -0.5px 0 var(--dark),
+      -0.5px 0.5px 0 var(--dark),
+      0.5px 0.5px 0 var(--dark);
+}
+
+/* NOTE: middle */
+.middleBox {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.middleBox p {
+   font-family: ComicNeue, sans-serif;
+   text-shadow:
+      -0.5px -0.5px 0 var(--dark),
+      0.5px -0.5px 0 var(--dark),
+      -0.5px 0.5px 0 var(--dark),
+      0.5px 0.5px 0 var(--dark);
+}
+
+/* NOTE: right */
+.rightBox {
+   display: flex;
+   flex-direction: column;
+   row-gap: 3px;
+   align-items: center;
+   column-gap: 1rem;
+}
+
+.rightBox p:nth-child(1) {
+   font-family: ComicNeue, sans-serif;
+   text-shadow:
+      -0.5px -0.5px 0 var(--dark),
+      0.5px -0.5px 0 var(--dark),
+      -0.5px 0.5px 0 var(--dark),
+      0.5px 0.5px 0 var(--dark);
+}
+
+.rightBox p:nth-child(2) {
+   font-family: Asap, sans-serif;
+   color: var(--white);
+   background-color: var(--steel-blue);
+   padding: 2px 0.5rem;
+   border-radius: 15px;
+}
